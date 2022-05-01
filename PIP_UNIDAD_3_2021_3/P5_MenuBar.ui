@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>924</width>
+    <height>412</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>0</y>
+      <width>121</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../PIP_UNIDAD_2_2021_3/recursos_proyecto.qrc">:/LOGO/Imagenes/HD-wallpaper-bob-esponja-mafioso-bob-esponja-gangster-mafioso-meme.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>0</y>
+      <width>681</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../PIP_UNIDAD_2_2021_3/recursos_proyecto.qrc">:/UAT_FIANS/Imagenes/FIANS.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>111</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../PIP_UNIDAD_2_2021_3/recursos_proyecto.qrc">:/NUMEROS/Imagenes/Boca_Juniors_logo18.svg.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>924</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <widget class="QMenu" name="menuAbrir_Ventana">
+     <property name="title">
+      <string>Abrir Ventana</string>
+     </property>
+     <addaction name="actionAbrir_Widget_2"/>
+     <addaction name="actionAbrir_Dialog_2"/>
+    </widget>
+    <addaction name="menuAbrir_Ventana"/>
+    <addaction name="separator"/>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuAyuda">
+    <property name="title">
+     <string>Ayuda</string>
+    </property>
+    <addaction name="actionAcerca"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuAyuda"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAbrir_Widget">
+   <property name="text">
+    <string>Abrir Widget</string>
+   </property>
+  </action>
+  <action name="actionAcerca_de">
+   <property name="text">
+    <string>Acerca de...</string>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="actionAcerca_de_2">
+   <property name="text">
+    <string>Acerca de...</string>
+   </property>
+  </action>
+  <action name="actionAcerca">
+   <property name="text">
+    <string>Acerca de</string>
+   </property>
+  </action>
+  <action name="actionAbrir_Widget_2">
+   <property name="text">
+    <string>Abrir Widget</string>
+   </property>
+  </action>
+  <action name="actionAbrir_Dialog_2">
+   <property name="text">
+    <string>Abrir Dialog</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../PIP_UNIDAD_2_2021_3/recursos_proyecto.qrc"/>
+ </resources>
+ <connections/>
+</ui>
